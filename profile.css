@@ -33,8 +33,8 @@ text-align: center;
 width: 50%;
 left: 24%;
 
-top: 52.5%;
-height: 50px;
+top: 50%;
+height: 75px;
 }
 
 .item3{
@@ -55,5 +55,17 @@ text-align: center;
 width: 20%;
 left: 24%;
 
-top: 60%;
+top: 88.5%;
 height: 250px;
+}
+
+.item5{
+border: 1px black solid;
+position: absolute;
+text-align: center;
+
+right: 26%;
+width: 29%;
+top: 60%;
+height: 500px;
+}
