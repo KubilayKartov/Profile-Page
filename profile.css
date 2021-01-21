@@ -1,25 +1,64 @@
+
+@media screen and (min-width: 320px) and (max-width: 480px){ /* Phones */
+body
+{
+
+
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){ /* Tablets */
+body
+{
+
+
+}
+
+}
+
 *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 img{
 position: absolute;
-right: 45%;
-left: 45%;
-top: 27.5%;
+right: 30%;
+left: 45.3%;
+top: 25%;
+z-index: 10;
+}
+
+p{
+position: relative;
+top:15%;
 }
 
 h1{
 position: absolute;
-left: 42.5%;
-top: 45%;
+left: 44%;
+top: 43%;
 font-family: inherit;
+}
+
+h2{
+position: absolute;
+left: 2%;
+top: 3%;
+}
+
+h3{
+position: absolute;
+left: 2%;
+top: 3%;
 }
 
 ul{
 position: absolute;
-left: 22%;
-top: 52%;
+left: 1%;
+top: 15%;
 }
 
 li{
@@ -28,6 +67,7 @@ padding: 15px;
 }
 
 .grid-container{
+width: 100%;
 display: grid;
 grid-template-columns: auto auto auto auto auto auto;
 grid-gap: 5px;
@@ -38,53 +78,60 @@ padding: 10px;
 border: 1px black solid;
 position: absolute;
 text-align: center;
-width: 50%;
-left: 24%;
+border-radius: 10px;
 
+width: 50%;
+left: 25%;
 height: 35%;
-top: 8.5%;
+top: 6%;
+
+background: url(galaxy.png) right bottom no-repeat;
 }
 
 .item2{
 border: 1px black solid;
 position: absolute;
 text-align: center;
-width: 50%;
-left: 24%;
+border-radius: 10px;
 
-top: 51%;
-height: 75px;
+width: 50%;
+left: 25%;
+top: 48%;
+height: 7.5%;
 }
 
 .item3{
 border: 1px black solid;
 position: absolute;
 text-align: center;
-width: 20%;
-left: 24%;
+border-radius: 10px;
 
-top: 61%;
-height: 250px;
+width: 20%;
+left: 25%;
+top: 58%;
+height: 26.5%;
 }
 
 .item4{
 border: 1px black solid;
 position: absolute;
 text-align: center;
-width: 20%;
-left: 24%;
+border-radius: 10px;
 
-top: 89.5%;
-height: 250px;
+width: 20%;
+left: 25%;
+top: 86.5%;
+height: 26.5%;
 }
 
 .item5{
 border: 1px black solid;
 position: absolute;
 text-align: center;
+border-radius: 10px;
 
-right: 26%;
+right: 25%;
 width: 29%;
-top: 61%;
-height: 500px;
+top: 58%;
+height: 53%;
 }
